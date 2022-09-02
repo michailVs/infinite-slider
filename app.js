@@ -57,3 +57,7 @@ function moveLeft() {
 
 leftRow.addEventListener('click', moveLeft)
 rightRow.addEventListener('click', moveRight)
+
+setInterval(() => {
+    moveRight()
+}, 10000);
